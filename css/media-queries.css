@@ -62,10 +62,20 @@
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }   
 
-/* Projects Section
+   /* Projects Section
    ------------------------------------------------------------------- */
    #projects h1 { font: 16px/24px 'opensans-bold', sans-serif; }
    #projects .main-col { padding-right: 5%; }   
+
+   /* Publications Section
+   ------------------------------------------------------------------- */
+   #publications h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #publications .main-col { padding-right: 5%; }   
+
+   /* Patents Section
+   ------------------------------------------------------------------- */
+   #patents h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #patents .main-col { padding-right: 5%; }   
 
    /* Testimonials Section
    ------------------------------------------------------------------- */
