@@ -326,27 +326,27 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .clang {
-  	width: 90%;
+  	width: 75%;
   	-moz-animation: clang 1s ease;
   	-webkit-animation: clang 1s ease;
 }
 .java {
-  	width: 85%;
+  	width: 75%;
   	-moz-animation: java 1s ease;
   	-webkit-animation: java 1s ease;
 }
 .python {
-  	width: 80%;
+  	width: 90%;
   	-moz-animation: python 1s ease;
   	-webkit-animation: python 1s ease;
 }
 .javascript {
-  	width: 80%;
+  	width: 85%;
   	-moz-animation: javascript 1s ease;
   	-webkit-animation: javascript 1s ease;
 }
 .sql {
-  	width: 85%;
+  	width: 80%;
   	-moz-animation: sql 1s ease;
   	-webkit-animation: sql 1s ease;
 }
@@ -356,7 +356,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: android 1s ease;
 }
 .web {
-  	width: 75%;
+  	width: 85%;
   	-moz-animation: web 1s ease;
   	-webkit-animation: web 1s ease;
 }
