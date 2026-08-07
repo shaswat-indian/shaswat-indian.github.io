@@ -487,6 +487,13 @@ input[type="button"] {
    border-radius: 3px;
 }
 
+#chat-send {
+   width: 50px;
+   padding: 12px 0;
+   margin-bottom: 0;
+   border-radius: 0 0 5px 0;
+}
+
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -540,7 +547,6 @@ select {
    border: 0;
    outline: none;
    vertical-align: middle;
-   min-width: 225px;
 	max-width: 100%;
    font-size: 15px;
    line-height: 24px;
@@ -801,7 +807,3 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
-
-
-
-

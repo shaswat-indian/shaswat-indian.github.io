@@ -230,6 +230,104 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
+/* Chatbot styles */
+#chat-container {
+   border: 1px solid #444;
+   border-radius: 5px;
+   margin-top: 10px;
+   width: -webkit-fill-available;
+   display: flex;
+   flex-direction: column;
+   height: 230px; /* Same height as iframe */
+   background: #373233;
+   font-family: 'opensans-regular', sans-serif;
+}
+
+#chat-box {
+   flex-grow: 1;
+   padding: 10px;
+   overflow-y: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   color: #eee;
+}
+
+/* Custom scrollbar for chatbox */
+#chat-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+#chat-box::-webkit-scrollbar-track {
+  background: #373233;
+}
+
+#chat-box::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 4px;
+}
+
+.chat-message {
+    padding: 8px 12px;
+    border-radius: 18px;
+    max-width: 80%;
+    word-wrap: break-word;
+    line-height: 1.4;
+}
+
+.user-message {
+    background-color: #11ABB0;
+    color: white;
+    align-self: flex-end;
+}
+
+.bot-message {
+    background-color: #444;
+    color: #eee;
+    align-self: flex-start;
+}
+
+/* Typing indicator styles */
+.typing-indicator span {
+    display: inline-block;
+    animation: blink 1.4s infinite both;
+}
+
+.typing-indicator span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes blink {
+    0% { opacity: 0.2; }
+    20% { opacity: 1; }
+    100% { opacity: 0.2; }
+}
+
+#chat-input-container {
+   display: flex;
+   border-top: 1px solid #444;
+}
+
+#chat-input {
+   margin-bottom: 0;
+   flex-grow: 1;
+   border-radius: 0 0 0 5px;
+}
+
+/* ------------------------------------------------------------------ */
+/* e. Media Queries
+/* ------------------------------------------------------------------ */
+
+@media only screen and (max-width: 767px) {
+   #chat-container {
+      margin-bottom: 42px;
+   }
+}
+
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
@@ -1166,4 +1264,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-

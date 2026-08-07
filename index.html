@@ -112,8 +112,14 @@
             <div align=center>
                <a href="https://sourcerer.io/shaswat-indian" target="_blank"><img class="profile-pic" style="display: block;" src="https://avatars2.githubusercontent.com/u/33908100?v=4" alt="Profile pic"/></a>
          
-               <!-- My Chatbot -->   
-               <iframe allow="microphone;" height="230" src="https://console.dialogflow.com/api-client/demo/embedded/shaswat" style="display: block; margin: 5px 5px; width: -webkit-fill-available;"></iframe>
+               <!-- My Chatbot -->
+               <div id="chat-container">
+                  <div id="chat-box"></div>
+                  <div id="chat-input-container">
+                     <input type="text" id="chat-input" placeholder="Ask me something...">
+                     <button id="chat-send"><i class="fa fa-paper-plane"></i></button>
+                  </div>
+               </div>
             </div>
          </div>
 
@@ -1379,6 +1385,7 @@
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+   <script src="js/chatbot.js"></script>
 
 </body>
 
